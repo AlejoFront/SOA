@@ -22,7 +22,23 @@ public class ServicioCalculadora {
     }
     
     public static double raiz(double x){
-        double sqrt = Math.abs(x);
-        return sqrt;
+        return Math.abs(x);
     }
+    
+    public static double seno(double x){
+        return Math.sin(x);
+    }
+    
+    public static double coseno(double x){
+        return Math.cos(x);
+    }
+    
+    public static double tangente(double x){
+        return Math.tan(x);
+    }
+    
+    public static double potencia(double x , int y){
+        return  Math.pow(x, y);
+    }
+    
 }
